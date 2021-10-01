@@ -2,7 +2,7 @@ name: Native Package CI
 
 defaults:
   run:
-    working-directory: packages/native
+    working-directory: "packages/native/**"
 
 on:
   push:

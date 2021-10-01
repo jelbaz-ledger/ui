@@ -2,7 +2,7 @@ name: React Package CI
 
 defaults:
   run:
-    working-directory: packages/react
+    working-directory: "packages/react/**"
 
 on:
   push:
