@@ -2,19 +2,19 @@ name: Native Package CI
 
 defaults:
   run:
-    working-directory: "packages/native/**"
+    working-directory: packages/native
 
 on:
   push:
     branches:
       - main
     paths:
-      - packages/native
+      - "packages/native/**"
   pull_request:
     branches:
       - main
     paths:
-      - packages/native
+      - "packages/native/**"
   workflow_dispatch:
 
 jobs:
